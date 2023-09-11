@@ -1,0 +1,11 @@
+@mixin dark-theme {
+  --sidebar-bg: var(--dark-blue);
+  --sidebar-text: var(--white);
+
+
+  --content-bg: var(--blue);
+  --content-text: var(--white);
+
+  --theme-toggle-bg: var(--blue);
+  --theme-toggle-button: var(--white);
+}

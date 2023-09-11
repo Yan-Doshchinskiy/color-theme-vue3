@@ -1,0 +1,17 @@
+@import '_reset.css';
+@import 'themes';
+
+:root {
+  --light-blue: #8691ab;
+  --blue: #576A90;
+  --dark-blue: #353D54;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  @include light-theme;
+
+  .dark-theme {
+    @include dark-theme;
+
+  }
+}
